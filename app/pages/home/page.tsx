@@ -65,8 +65,10 @@ export default function Home() {
             style={{
               boxShadow: " 0px 0px 10px 0px white",
             }}
-            className="border rounded-lg h-[90%] mt-10 flex flex-col  w-[65%] items-center px-5 bg-[#989398] "
+            className=" relative border rounded-lg h-[90%] mt-10 flex flex-col  w-[65%] items-center px-5 "
           >
+            <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[5rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
+            <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[5rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[33rem] lg:left-[5rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
             <h2
               className=""
               style={{
