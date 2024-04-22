@@ -65,7 +65,7 @@ export default function Home() {
             style={{
               boxShadow: " 0px 0px 10px 0px white",
             }}
-            className="border rounded-lg h-[90%] mt-10 flex flex-col  w-[70%] items-center px-5 bg-[#989398] "
+            className="border rounded-lg h-[90%] mt-10 flex flex-col  w-[65%] items-center px-5 bg-[#989398] "
           >
             <h2
               className=""

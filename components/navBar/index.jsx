@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-gray-200 mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 bg-gray-200 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <button
@@ -64,7 +64,7 @@ export default function Navbar() {
                 </button>
               </li>
               <li className="nav-item flex">
-                <h1 className=" text-red-400 mt-5">{user}</h1>
+                <h1 className=" text-red-400 mt-6">{user}</h1>
               </li>
             </ul>
           </div>
