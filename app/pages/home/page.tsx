@@ -110,7 +110,10 @@ export default function Home() {
             </div>
             <div className="mt-5 w-[100%]">
               {toDoItemsArray.map((item, index) => (
-                <div className=" mt-5 w-[100%] border-b-[#FFD700] border-b-2">
+                <div
+                  key={index}
+                  className=" mt-5 w-[100%] border-b-[#FFD700] border-b-2"
+                >
                   <div className="flex flex-row   items-center justify-between  pb-1 ml-5 mr-2 gap-3">
                     <div
                       style={{ fontWeight: "700" }}
