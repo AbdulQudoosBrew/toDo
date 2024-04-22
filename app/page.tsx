@@ -31,7 +31,7 @@ const LoginPage = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-80">
-        <h1 className="text-2xl font-bold mb-4">Login</h1>
+        <h1 className="text-2xl font-bold mb-4 text-gray-800">Login</h1>
         <form onSubmit={handleLogin}>
           <div className="mb-4">
             <label className="block text-gray-700">Username:</label>
@@ -39,7 +39,7 @@ const LoginPage = () => {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="mt-1 p-2 border border-gray-300 rounded w-full"
+              className="mt-1 p-2 border border-gray-300 rounded w-full text-gray-700"
             />
           </div>
           <div className="mb-4">
@@ -48,7 +48,7 @@ const LoginPage = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="mt-1 p-2 border border-gray-300 rounded w-full"
+              className="mt-1 p-2 border border-gray-300 rounded w-full text-gray-700"
             />
           </div>
           {error && <p className="text-red-500 mb-4">{error}</p>}
