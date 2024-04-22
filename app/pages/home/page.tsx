@@ -68,8 +68,10 @@ export default function Home() {
             className=" relative border rounded-lg h-[90%] mt-10 flex flex-col  w-[65%] items-center px-5 "
           >
             <div className="bg-[#fbe2e3] absolute  -z-10  h-[31.25rem] w-[5rem] rounded-full blur-[10rem] "></div>
-            <div className="bg-[#dbd7fb] absolute bottom-[-2rem] -z-10  h-[31.25rem] w-[5rem] rounded-full blur-[10rem] "></div>
-            <div className="bg-[#FFC285] absolute top-[15rem] -z-10  h-[31.25rem] w-[1rem] rounded-full blur-[10rem] "></div>
+            <div className=" bg-slate-300 absolute  left-14 -z-10  h-[10rem] w-[5rem] rounded-full blur-[4rem] "></div>
+            <div className="bg-[#8600FF] absolute top-[22rem] left-6 -z-10  h-[10rem] w-[5rem] rounded-full blur-[4rem] "></div>
+            <div className="bg-[#FFC285] absolute top-[22rem]  left-22 -z-10  h-[10rem] w-[5rem] rounded-full blur-[4rem] "></div>
+            <div className="bg-[#FF0000] absolute top-[22rem]  left-72 -z-10  h-[10rem] w-[5rem] rounded-full blur-[4rem] "></div>
 
             <h2
               className=""
